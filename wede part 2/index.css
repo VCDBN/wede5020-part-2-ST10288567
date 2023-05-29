@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(/IMAGES/bg.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 1288px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 288px;
+    float: left;
+    height: 78px;
+}
+
+.logo{
+    color: rgba(0, 181, 204, 1);
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 28px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: azure;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgba(0, 181, 204, 1);
+}
+
+
+
+.srch{
+    font-family: Cambria, Cochin, 'Times New Roman';
+    width: 150;
+    height: 40px;
+    background: white;
+    border: 2px solid  rgba(0, 181, 204, 1);
+    color: aliceblue;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+}
+
+.btn{
+    border-radius: 30px;
+    float: right;
+    width: 100px;
+    height: 40px;
+    background: rgba(0, 181, 204, 1);
+    border: 2px rgba(0, 181, 204, 1);
+    color: azure;
+    font-size: 15px;
+    margin-top: -40px;
+}
+
+.btn :focus{
+    outline: none;
+}
+
+.srch :focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+height: auto;
+margin: auto;
+color: white;
+position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+padding-bottom: 25px;
+font-family: Arial;
+letter-spacing: 1.2px;
+line-height: 30px;
+}
+
+.content h1{
+font-family: Cambria, Cochin'Times New Roman';
+font-size: 50px;
+padding-left: 20px;
+margin-top: 9%;
+letter-spacing: 2px;
+}
+
+.content .cn{
+width: 160px;
+height: 40px;
+background: orange;
+border: none;
+margin-bottom: 10px;
+margin-left: 20px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+transition: .4s ease;
+}
+
+
+.content .cn a{
+text-decoration: none;
+color: black;
+transition: .3s ease;
+}
+
+.cn :hover{
+    background-color: aqua;
+}
+
+
+
+
+
